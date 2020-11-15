@@ -2,6 +2,20 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.7.
 
+# DEMO
+
+# responsive
+![alt text](https://github.com/shrutisingla1995/VEU-project/blob/master/src/assets/images/VeuMagProject.gif?raw=true)
+
+# home page
+![alt text](https://github.com/shrutisingla1995/VEU-project/blob/master/src/assets/images/1.png?raw=true)
+
+# all posts page
+![alt text](https://github.com/shrutisingla1995/VEU-project/blob/master/src/assets/images/2.png?raw=true)
+
+# post page 2
+![alt text](https://github.com/shrutisingla1995/VEU-project/blob/master/src/assets/images/3.png?raw=true)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
