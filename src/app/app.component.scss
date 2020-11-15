@@ -1,0 +1,88 @@
+nav{
+    background: black;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    font-family: Roboto;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        a{
+            color:white;
+            padding:5px;
+            &:hover{
+                text-decoration: none;
+            }
+        }
+
+        display: inline;
+        .main{
+            font-family: Comic Sans MS;
+            font-weight: 800;
+        }
+        &.login-btn{
+            margin: 6px 20px;
+            float: right;
+            font-size: 12px;
+        }
+        &.post{
+            margin: 6px 20px;
+            font-size: 16px;
+            a{
+                &:hover{
+                    background: white;
+                    color:black;
+                    border-radius: 5px;
+                }
+            }
+            .active{
+                background: white;
+                color:black;
+                border-radius: 5px;
+                text-decoration: none;
+            }
+        }
+    }
+  
+}
+.page-footer{
+    padding:20px;
+    background: black;
+    color: white;
+    h3{
+        font-family: Comic Sans MS;
+        font-weight: 800;
+    }
+    input{
+        background: transparent;
+        border: 1px solid white;
+        padding: 10px;
+        margin: 10px 0;
+        width: 65%;
+    }
+    .submit-btn{
+        position: absolute;
+        right: 38%;
+        top: 55%;
+        font-size: 12px;
+    }
+    .icons{
+        .fab{
+            margin-right:10px;
+        }
+    }
+    button{
+        background: transparent;
+        color: white;
+        padding: 10px;
+        width: 70%;
+        margin: 15px 0;
+        border: 1px solid;
+    }
+}

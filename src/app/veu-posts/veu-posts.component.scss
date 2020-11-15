@@ -1,0 +1,22 @@
+#bg1 {
+    background-repeat: no-repeat;
+    background-size: auto;
+    img{
+        width: 100%;
+        height: 35rem;
+    }
+  }
+  .img-over-text{
+    position: absolute;
+    color: white;
+    padding: 20px;
+    &.large{
+        top: 25%;
+        font-size: 3rem;
+        font-family: "Roboto";
+    }
+    &.small{
+        top: 70%;
+        font-size: 18px;
+    }
+}
